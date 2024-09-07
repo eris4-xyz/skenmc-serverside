@@ -1,0 +1,11 @@
+<svg width="108" height="108" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Define the drop shadow filter -->
+    <filter id="shadow" x="0" y="0" width="150%" height="150%">
+      <feDropShadow dx="5" dy="5" stdDeviation="3" flood-color="gray"/>
+    </filter>
+  </defs>
+
+  <!-- Draw the square with the shadow filter applied -->
+  <rect x="0" y="0" width="108" height="108" fill="skyblue" stroke="black" filter="url(#shadow)"/>
+</svg>
